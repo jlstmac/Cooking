@@ -65,7 +65,7 @@ class Clock: NSObject ,UNUserNotificationCenterDelegate{
 //            
 //        }
         
-        notifiCenter.removeAllDeliveredNotifications()
+        removeClocks()
         
         let content = UNMutableNotificationContent()
         content.title = "时间到了！！！！！"
@@ -107,4 +107,9 @@ class Clock: NSObject ,UNUserNotificationCenterDelegate{
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
         print(response.notification.request.content.userInfo)
     }
+    
+    func removeClocks() {
+        notifiCenter.removeAllDeliveredNotifications()
+    }
+    
 }

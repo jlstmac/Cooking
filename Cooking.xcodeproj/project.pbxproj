@@ -21,7 +21,7 @@
 		E64976332A07441000AE6C2A /* CookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64976322A07441000AE6C2A /* CookingUITestsLaunchTests.swift */; };
 		E64976422A07496800AE6C2A /* ClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64976412A07496800AE6C2A /* ClockModel.swift */; };
 		E64976442A074AF700AE6C2A /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64976432A074AF700AE6C2A /* Clock.swift */; };
-		E695F5972A07BADB00B20BDD /* clock.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E695F5962A07BADB00B20BDD /* clock.m4a */; };
+		E6C1D2F32A07F38D00083C86 /* clock.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E6C1D2F22A07F38D00083C86 /* clock.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		E64976322A07441000AE6C2A /* CookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E64976412A07496800AE6C2A /* ClockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockModel.swift; sourceTree = "<group>"; };
 		E64976432A074AF700AE6C2A /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
-		E695F5962A07BADB00B20BDD /* clock.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock.m4a; sourceTree = "<group>"; };
+		E6C1D2F22A07F38D00083C86 /* clock.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock.m4a; sourceTree = "<group>"; };
 		E96311AEF0499A4F50DA0074 /* Pods-Cooking-CookingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cooking-CookingUITests.release.xcconfig"; path = "Target Support Files/Pods-Cooking-CookingUITests/Pods-Cooking-CookingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EDC6EC850E5BC4E58B0E7CD0 /* Pods-Cooking-CookingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cooking-CookingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cooking-CookingUITests/Pods-Cooking-CookingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,7 +179,7 @@
 		E695F5952A07BABA00B20BDD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E695F5962A07BADB00B20BDD /* clock.m4a */,
+				E6C1D2F22A07F38D00083C86 /* clock.m4a */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E649761C2A07441000AE6C2A /* LaunchScreen.storyboard in Resources */,
-				E695F5972A07BADB00B20BDD /* clock.m4a in Resources */,
+				E6C1D2F32A07F38D00083C86 /* clock.m4a in Resources */,
 				E64976192A07441000AE6C2A /* Assets.xcassets in Resources */,
 				E64976172A07440E00AE6C2A /* Main.storyboard in Resources */,
 			);

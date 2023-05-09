@@ -110,8 +110,13 @@ class ViewController: UIViewController {
         if clock.state == .PostCooking {
             changeState(.Soaking)
         } else {
-            changeState(CookingState(rawValue: clock.state!.rawValue + 1)!)
+            if let state = clock.state {
+                changeState(CookingState(rawValue: state.rawValue + 1)!)
+            } else {
+                changeState(.PreCooking1)
+            }
         }
+        clock.state = state
         changeButton(enable: true)
 
     }
@@ -120,7 +125,6 @@ class ViewController: UIViewController {
         changeState(.Soaking)
         nextBtn.isEnabled = true;
         nextBtn.backgroundColor = .red
-
     }
 }
 
